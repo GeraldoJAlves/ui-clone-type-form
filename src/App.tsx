@@ -3,14 +3,15 @@ import React from 'react'
 import GlobalStyles from './styles/GlobalStyles';
 import { Main, Section, Sticky } from './styles';
 
+import FirstAndSecond from './components/FirstAndSecond';
+
 function App() {
   return (
    <>
     <GlobalStyles />
     <Main style={{height:'1610vh'}}>
       <Section style={{height:'72.7%'}}>
-        <Sticky className="first" />
-        <Sticky className="second" />
+        <FirstAndSecond />
       </Section>
       <Section style={{height:'9.7%'}}>
         <Sticky className="third" />
