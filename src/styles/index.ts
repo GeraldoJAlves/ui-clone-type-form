@@ -4,12 +4,12 @@ import { motion } from 'framer-motion';
 export const Main = styled.main`
 
   .first {
-    background: purple;
+    background: green;
     overflow: hidden;
     .offsett{}
   }
   .second {
-    background: blue;
+    background: red;
   }
   .third {
     background: gray;
@@ -20,7 +20,7 @@ export const Section = styled.section`
   position: relative;
 `;
 
-export const Sticky = styled.div`
+export const Sticky = styled(motion.div)`
   position: sticky;
   height: 100vh;
   top: 0;
