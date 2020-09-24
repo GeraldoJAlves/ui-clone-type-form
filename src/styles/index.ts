@@ -6,7 +6,10 @@ export const Main = styled.main`
   .first {
     background: red;
     overflow: hidden;
-    .offsett{}
+    .offset{
+      width: 100%;
+      height: 100%;
+    }
     .a {
       background: #f5f1ea;
       height: 100%;
@@ -17,11 +20,13 @@ export const Main = styled.main`
         height: 100%;
         background: #7dbb91;
       }
-      .rigth-side {
+      .right-side {
         width: 50%;
         height: 100%;
         .right-image {
           background: #7dbb91;
+          width: 100%;
+          height: 100%;
         }
       }
     }
